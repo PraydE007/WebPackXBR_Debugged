@@ -1,3 +1,8 @@
+# PackXBR Debugged
+This code was originally developed by [CodeF53](https://github.com/CodeF53/WebPackXBR).
+I have made modifications using AI tools to enhance its functionality — specifically, to enable real-time tracking of the file currently being loaded.
+The motivation behind this change was an issue in the original implementation, which failed to load a specific file under certain conditions. My adjustments aim to improve reliability by providing clearer visibility into the loading process.
+
 # PackXBR
 A utility for automatic application of the XBR scaling algorithm to a collection of game textures, specifically designed for Minecraft resource packs.
 
