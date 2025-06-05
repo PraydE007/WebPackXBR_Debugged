@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: '/WebPackXBR_Debugged/',
     head: {
       title: 'PackXBR',
       link: [
