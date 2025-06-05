@@ -2,7 +2,7 @@
 A utility for automatic application of the XBR scaling algorithm to a collection of game textures, specifically designed for Minecraft resource packs.
 
 ## Usage
-1. Go to [packxbr.f53.dev](https://packxbr.f53.dev/)
+1. Go to https://prayde007.github.io/WebPackXBR_Debugged/ (Original is: [packxbr.f53.dev](https://packxbr.f53.dev/))
 2. Choose a `.zip` file containing `.png` images you want to scale.
 3. Select Scale Factor and Auto/Manual
 4. (Manual Only), choose options to scale each image.
