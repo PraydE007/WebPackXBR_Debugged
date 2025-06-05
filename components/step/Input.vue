@@ -5,7 +5,6 @@ import { ref, onBeforeMount, onBeforeUnmount } from 'vue'
 const emit = defineEmits(['update:files', 'update:outputName', 'next'])
 
 const input = ref<HTMLInputElement | null>(null)
-const outputName = ref('output')
 const selectedText = ref('No files selected')
 const error = ref<string | undefined>()
 
@@ -70,14 +69,6 @@ const handleFileInput = (e: Event) => {
 
     <!-- Вивід кількості файлів -->
     <span>{{ selectedText }}</span>
-
-    <!-- Поле для шляху (output file name) -->
-    <input
-      type="text"
-      v-model="outputName"
-      placeholder="Output name"
-      @input="emit('update:outputName', outputName)"
-    />
 
     <!-- Помилка, якщо є -->
     <span v-if="error" class="error">{{ error }}</span>
